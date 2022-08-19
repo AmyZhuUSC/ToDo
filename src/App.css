@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  background-color: rgba(255, 189, 110, 0.5);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  padding-top: 10px;
+}
+.searchBar {
+  margin: 5px;
+  height: 2em;
+}
+
+.task-counter {
+  padding: 10px;
+}
+
+.filterBtn {
+  background-color: rgba(125, 213, 155, 0.8);
+  height: 2em;
+  border-radius: 0.5em;
+  margin: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.theList {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.taskname {
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px black;
+  text-align: left;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+}
+footer:hover {
+  cursor: pointer;
+}
